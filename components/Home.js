@@ -63,9 +63,19 @@ const HomeScreen = ({navigation}) => {
           }}
           placeholder="Search Exercises"
         />
-        <Text style={{fontSize: 22, fontWeight: 'bold', padding: 20}}>
-          Todays Exercise
-        </Text>
+        <View
+          style={{
+            display: 'flex',
+            flexDirection: 'row',
+            justifyContent: 'space-between',
+            padding: 20,
+            alignItems: 'baseline',
+          }}>
+          <Text style={{fontSize: 22, fontWeight: 'bold'}}>
+            Todays Exercise
+          </Text>
+          <Text>See All</Text>
+        </View>
         <View
           style={{
             display: 'flex',
